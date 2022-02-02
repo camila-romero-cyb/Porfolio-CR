@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+   }
+   
+   /** Fuentes**/
+   
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+   
+   body {
+   font-family: 'Montserrat', sans-serif;
+   
+   }
+   
+    /**header**/
+
+*{
+    text-decoration: none;
+    list-style: none 
+}
+
+
+    
+   .header {
+   width: 100%;
+   height: 100px;
+   box-shadow: 0px 0px 29px rgba(179, 178, 178, 0.979);
+   position: fixed;
+    top: 0;
+   right: 0;
+   padding-right: 50px;
+   padding-top: 20px;
+   background-color: white;
+   }
+   
+   h1{
+    color: #f79ce4 ;
+    font-size: 40px;
+    font-weight: 900;
+   } 
+   
+   .menu {
+   display:inline;
+   
+    }
+   
+    .menu ul{
+        text-decoration: none;
+        list-style: none;
+        transition: 0,4s;
+    }
+   
+   a{
+   color:#fda8eb ;
+   padding: 20px;
+   
+   }
+   
+   .nav {
+   float: right;
+   padding: 25px 0 ;
+   align-items: center; 
+   
+   }
+   
+   .nav ul{            
+   
+   display: flex;        
+   justify-content: space-around;                    
+    }          
+   
+               
+   .menu a:hover{          
+   
+   color:  #f8d6f1;
+     }
+   
+      
+   .button-1{
+   color: white;
+   font-size: 16px;
+   background-color:#FF63DC;
+   padding-top: 15px;
+   padding-right: 40px;
+   padding-bottom: 15px;
+   padding-left: 40px;
+   border-radius: 100px;
+   border: none;
+   margin-top: 20px;
+   
+   }
+
+
+
+   @media screen and (max-width:768px){
+       .header{
+           display: none;
+       }
+     }
+
+  
+   
+    /** main*/
+   
+   .button-2{
+   display: inline-block;
+   color: white;
+   font-size: 16px;
+   background-color:#FF63DC;
+   padding-top: 15px;
+   padding-right: 40px;
+   padding-bottom: 15px;
+   padding-left: 40px;
+   border-radius: 100px;
+   border: none;
+   margin-top: 20px;
+   white-space: nowrap;
+   
+    }
+
+    .main-hy a:hover{
+    color: #f8d6f1;
+    }
+
+   .main {
+    width: 100%;
+   padding: 110px 40px 110px 40px;
+   display: flex;
+   text-align:left;
+   align-items: center;
+
+   }
+
+   .main .main-img img{
+   max-width: 100%;
+   float: right;
+   width: 700px;
+   }
+   
+   .main .main-hy {
+   width: 100%;
+   max-width: 500px;
+   justify-content: flex-start;
+   flex-direction: column;
+   text-align: left;
+   margin-left: 70px;
+  
+
+   }
+
+   .p-hy{
+       font-size: 40px;
+       font-weight: 300;
+   }
+   
+/** fin del main**/
+
+
+   .card{
+   font-size: 30px;
+  
+
+
+   }
+   
+   .title-conteiner{
+       font-size: 50px;
+       padding: 20px;
+       color: #f79ce4;
+       font-weight: 600;
+     
+    
+   }
+
+   .p{
+       padding:20px;
+       margin-bottom: 30px;
+       padding-top: 20px;
+       font-size: 20px;
+   }
+
+   .conteiner{
+       background-color:#fdfdfde0;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 110px 40px 130px;
+       text-align: center;
+   }
+   
+   .conteiner-box{ 
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 800px;
+      margin: 30px;
+      border: 1px ;
+   }
+    
+   .icon{
+    font-weight: 600px;
+    border-radius: 10px;
+    border:solid 1px #f8d6f1 ;
+    padding: 25px;
+    width: 220px;
+    margin: 10px;
+ }
+ 
+ .icon:hover{
+     border:#f8d6f1 ;
+ }
+
+   
+   .icon-html5{
+       font-size: 5em ;
+       color:orangered
+   }
+   .icon-css{
+       font-size: 5em;
+       color: rgb(16, 16, 250);
+   }
+   .icon-sass{
+       font-size: 5em;
+       color: #669;
+   }
+   .icon-js{
+       font-size: 5em;
+       color: yellow;
+   }
+   .icon-react{
+       font-size: 5em;
+       color:#61dafb;
+   }
+   .icon-git{
+       font-size: 5em;
+       color: #f34f29;
+   }
+   
+   /**PROYECTOS**/
+
+   i {
+    color:white;
+    font-size: 100px;
+    display: flex;
+    content: icon;
+    justify-content: center;
+    }
+   
+    .phrase-box{
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        font-weight: 500;
+        font-family: 'Courier New', Courier, monospace;
+        background-color:#fae9f7;
+        color: #FF63DC;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+   .phrase{
+      padding: 110px 40px 130px;
+    }
+
+    .p-phrase{
+        padding: 30px;
+        margin: 30px;
+    }
+
+   
+   /* grilla proyectos**/
+
+   .section-projects h4{
+       display: inline block;
+       padding: 20px;
+       color:#f79ce4 ;
+       font-size: 50px;
+       font-weight: 900;
+       margin: 30px; 
+        
+   }
+
+
+   .section-projects{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 40px 130px;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+
+
+
+
+
+
+   .grilla-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 30px;
+    border: 1px;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: 20px;
+    
+ }
+
+   img{
+    max-width: 100%;
+    float: right;
+    margin-left: 100px;
+    }
+
+   .img-grilla{
+    border-radius: 10px;
+    border: solid 1px #f8d6f1  ;
+    padding: 25px;
+    margin: 10px;
+    width: 220px;
+   }
+
+   .img-grilla:hover{
+    border: solid 1px #FF63DC;
+    }
+
+/** SECTION- CONTACTAME**/
+
+
+.form{
+    flex-direction: column;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    padding: 110px 40px 130px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 0em;
+    background-color: #fdfdfdfa;
+   
+}
+
+
+.form-p{
+ margin-right: 20px;
+ padding-right: 20px;
+ align-content: space-around;
+ max-width: 700px;
+ justify-content: start;
+
+
+    
+
+}
+
+.section-contact{
+    display: flex;
+    text-align: left;
+    background-color:rgba(255, 251, 251, 0.219);
+    padding: 80px 60px;
+    border-radius: 15px;
+    border: 1px solid #f8d6f1  ;
+   
+}
+
+
+.section-write{
+    margin-top: 0;
+    margin-bottom: 20px; 
+    margin-left: 10%;
+}
+
+input{
+    border: 0;
+    border-radius: 20px;
+    background-color: #f6f7fb;
+    border: 1px solid #f6f7fb;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+    display: block;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.input-write{
+    padding: 10px;
+    margin: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.tittle-h2{
+    display: block;
+    font-size: 30px;
+    color:#f79ce4 ;
+   padding: 10px;
+   margin-right: 10px;
+   display: flex;
+   justify-content:start;
+}
+
+.contact-ul{
+    list-style: none;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.button-3{
+    color:white;
+    font-size: 16px;
+    background-color: #FF63DC;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 20px;
+}
+
+
+
+/**FOOTER**/
+
+footer{  
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px 60px;
+    background-color: #fadbf4;
+    margin: 30px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.footer-ul{
+    max-width: 100%;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding: 0;
+  
+}
+
+.footer-nav{
+  justify-content: center;
+  display: flex ;
+  align-items: center;
+  margin: 0;
+}
+
+.footer-nav a:hover{
+    background-color:#f8d6f1 ;
+}
+
+.fa-instagram{
+    color: #FF63DC;
+    font-size: 2em;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.fa-facebook-square{
+    color: #FF63DC;
+    font-size: 2em;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.fa-envelope{
+    color: #FF63DC;
+    font-size: 2em;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.fa-whatsapp{
+    color: #FF63DC;
+    font-size: 2em;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+    
+}
+
+.spam{
+    padding-top: 20px;
+}
+
+/*responsive*/
+
+ 
